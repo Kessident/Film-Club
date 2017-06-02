@@ -11,3 +11,20 @@
     vertical-align: baseline;
     background: transparent;
 }
+
+body{
+  color: #0B1942;
+}
+
+.nav-link{
+  color: #ffffff;
+}
+
+.nav-icon{
+  background-color: #F5005B;
+}
+
+
+.film-link{
+  color: #00B7D3;
+}
