@@ -17,14 +17,51 @@ body{
 }
 
 .nav-link{
+  width: 100%;
   color: #ffffff;
+  text-decoration: none;
 }
+
+
+.nav-text{
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-home{background-color:#00A5BF;}
+.nav-calendar{background-color:#00B7D3;}
+.nav-join{background-color: #00D5E7;}
+
+
 
 .nav-icon{
   background-color: #F5005B;
 }
 
 
+.h2{
+  background-color: #0B1942;
+  color: #FFFFFF;
+}
+
+
+.up-next{
+  background-color: #0B1942;
+}
+
+.up-next-card{
+  background-color: #E2E2E2;
+}
+
 .film-link{
   color: #00B7D3;
+}
+
+
+
+.copyright-text{
+  text-align: center;
+  padding: 30px;
+  color: #FFFFFF;
+  background-color: #7EDFE8;
 }
