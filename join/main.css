@@ -82,3 +82,7 @@ footer nav{
   color: #FFFFFF;
   background-color: #7EDFE8;
 }
+
+input{
+  border: 1px solid lightgrey;
+}
