@@ -37,7 +37,10 @@ nav{
 
 .nav-icon{
   height: 180px;
+<<<<<<< HEAD
   width: 180px;
+=======
+>>>>>>> c5a80fc3fd55c321b99254397b52574bf67f91b7
   padding: 15px;
   background-color: #F5005B;
 }
@@ -52,7 +55,10 @@ nav{
   display: flex;
   flex-direction: column;
   height: auto;
+<<<<<<< HEAD
   min-height: 150px;
+=======
+>>>>>>> c5a80fc3fd55c321b99254397b52574bf67f91b7
 }
 
 .nav-link{
