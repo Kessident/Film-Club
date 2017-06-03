@@ -208,30 +208,29 @@ footer nav{
 @media screen and (min-width: 769px) {
 
 .up-next{
-  display: flex;
-  flex-direction: column;
-}
+    display: flex;
+    flex-direction: column;
+  }
 
-.movie-container{
-  display: flex;
-}
+  .movie-container{
+    display: flex;
+  }
 
-.up-next-card, .rashomon-card{
-  flex-basis: 50%;
-  margin: 20px;
-}
-
-
-.rashomon-card{
-
-  height: 50%;
-}
+  .up-next-card, .rashomon-card{
+    flex-basis: 50%;
+    margin: 20px;
+  }
 
 
-.poster{
-  height: 45vw;
-  max-height: 289px;
-  width: 32vw;
-  max-width: 203px;
-}
+  .rashomon-card{
+    height: 50%;
+  }
+
+
+  .poster{
+    height: 45vw;
+    max-height: 289px;
+    width: 32vw;
+    max-width: 203px;
+  }
 }

@@ -53,6 +53,7 @@ nav{
   flex-direction: column;
   height: auto;
   min-height: 120px;
+  background-color: #7EDFE8;
 }
 
 .nav-link{
@@ -109,12 +110,9 @@ td{
   font-weight: bold;
 }
 
-
-
 .calendar-highlight{
   background-color: #F5005B;
 }
-
 
 footer nav{
   min-height: 22vh;
@@ -126,3 +124,26 @@ footer nav{
   color: #FFFFFF;
   background-color: #7EDFE8;
 }
+
+
+@media screen and (min-width: 545px) {
+  .nav-link-container{
+    flex-direction: row;
+  }
+
+  .nav-link{
+    width:120px;
+    flex-grow: 0;
+  }
+
+  footer nav{
+    min-height: 0;
+  }
+
+  .copyright-text{
+    align-self: center;
+    text-align: right;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 769px) {
