@@ -63,6 +63,7 @@ nav{
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  min-width: 100px;
 }
 
 .nav-text{

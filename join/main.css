@@ -63,6 +63,7 @@ nav{
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  min-width: 100px;
 }
 
 .nav-text{
@@ -157,3 +158,20 @@ input[type=submit]{
 }
 
 @media screen and (min-width: 769px) {
+
+  input[type=textarea]{
+    margin: 10px 0px;
+    width: 60%;
+  }
+  .checkbox-container{
+    flex:0 0 33%;
+  }
+  .login-info{
+    display: flex;
+    flex-grow: 1;
+  }
+
+  #name-email, #password{
+    flex-basis: 45%;
+    margin-left: 20px;
+  }
