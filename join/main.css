@@ -107,8 +107,8 @@ input[type=checkbox]{
 }
 
 input[type=textarea]{
-  height: 3rem;
   width: 100%;
+  resize: both;
 }
 
 input[type=submit]{
