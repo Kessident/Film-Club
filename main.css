@@ -1,0 +1,158 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('http://fonts.gstatic.com/s/ptsans/v8/S1YQx4pVZa17uu0HWQd2fA.eot');
+  src: url('http://fonts.gstatic.com/s/ptsans/v8/S1YQx4pVZa17uu0HWQd2fA.eot?#iefix') format('embedded-opentype'),
+       local('PT Sans'),
+       local('PT-Sans-regular'),
+       url('http://fonts.gstatic.com/s/ptsans/v8/CWlc_g68BGYDSGdpJvpktgLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2'),
+       url('http://fonts.gstatic.com/s/ptsans/v8/7YGmE4Ls5b94ct65u07hVQLUuEpTyoUstqEm5AMlJo4.woff') format('woff'),
+       url('http://fonts.gstatic.com/s/ptsans/v8/FUDHvzEKSJww3kCxuiAo2A.ttf') format('truetype'),
+       url('http://fonts.gstatic.com/l/font?kit=-W_xG__5QLePeHob2L7z1Q&skey=fd0b32f0f3e6a1fc&v=v8#PTSans') format('svg');
+}
+
+body{
+  font-family: 'PT Sans', sans-serif;
+  color: #0B1942;
+}
+
+nav{
+  display: flex;
+}
+
+.nav-icon{
+  height: 180px;
+  width: 180px;
+  padding: 15px;
+  background-color: #F5005B;
+}
+
+.nav-icon img{
+  height: 95%;
+  width: 95%;
+}
+
+.nav-link-container{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 150px;
+}
+
+.nav-link{
+  color: #ffffff;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.nav-text{
+  text-align: center;
+}
+
+.nav-home{background-color:#00A5BF;}
+.nav-calendar{background-color:#00B7D3;}
+.nav-join{background-color: #00D5E7;}
+
+
+.home-info{
+  padding: 20px;
+}
+
+.home-info h1{
+  font-size: 2.2rem;
+}
+
+.headings{
+  font-size: 2rem;
+  padding: 5px 20px;
+  margin: 20px 0;
+  background-color: #0B1942;
+  color: #FFFFFF;
+}
+
+
+
+.up-next{
+  padding: 20px;
+  background-color: #0B1942;
+}
+
+.up-next h1{
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+.up-next-card{
+  background-color: #E2E2E2;
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2rem;
+}
+
+.up-next-info{
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.line{
+  border: 1px solid black;
+  margin: 30px 0px;
+  width: 100%;
+}
+
+.rating, .discussion-points{
+  font-weight: bold;
+}
+
+.discussion-points-list{
+  list-style: circle inside;
+}
+
+.up-next-film{
+  flex-basis: 50%;
+  margin-bottom: 20px;
+}
+
+
+.poster{
+  height: 45vw;
+  max-height: 289px;
+  width: 32vw;
+  max-width: 203px;
+}
+
+.film-link{
+  color: #00B7D3;
+}
+
+
+
+.copyright-text{
+  text-align: center;
+  padding: 30px;
+  color: #FFFFFF;
+  background-color: #7EDFE8;
+}
