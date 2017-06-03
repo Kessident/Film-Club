@@ -36,11 +36,8 @@ nav{
 }
 
 .nav-icon{
-  height: 180px;
-<<<<<<< HEAD
-  width: 180px;
-=======
->>>>>>> c5a80fc3fd55c321b99254397b52574bf67f91b7
+  height: 120px;
+  width: 120px;
   padding: 15px;
   background-color: #F5005B;
 }
@@ -55,10 +52,7 @@ nav{
   display: flex;
   flex-direction: column;
   height: auto;
-<<<<<<< HEAD
-  min-height: 150px;
-=======
->>>>>>> c5a80fc3fd55c321b99254397b52574bf67f91b7
+  min-height: 120px;
 }
 
 .nav-link{
@@ -77,3 +71,58 @@ nav{
 .nav-home{background-color:#00A5BF;}
 .nav-calendar{background-color:#00B7D3;}
 .nav-join{background-color: #00D5E7;}
+
+
+.title{
+  font-size: 2.5rem;
+  margin: 30px;
+}
+
+.calendar-container{
+  background-color: #0B1942;
+  padding-bottom: 40px;
+}
+
+.month{
+  font-size: 2rem;
+  color: white;
+  padding: 20px;
+}
+
+table{
+  width: 100%;
+}
+
+td{
+  background-color: white;
+  height: 14.3vw;
+}
+
+.date{
+  height: 40px;
+  width: 40px;
+  background-color: #0B1942;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+
+.calendar-highlight{
+  background-color: #F5005B;
+}
+
+
+footer nav{
+  min-height: 22vh;
+}
+
+.copyright-text{
+  text-align: center;
+  padding: 30px;
+  color: #FFFFFF;
+  background-color: #7EDFE8;
+}
