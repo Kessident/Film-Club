@@ -208,7 +208,7 @@ footer nav{
 
 @media screen and (min-width: 769px) {
 
-.up-next{
+  .up-next{
     display: flex;
     flex-direction: column;
   }
@@ -222,7 +222,10 @@ footer nav{
     margin: 20px;
   }
 
-
+  .up-next-film{
+    flex-basis: 50%;
+  }
+  
   .rashomon-card{
     height: 50%;
   }
