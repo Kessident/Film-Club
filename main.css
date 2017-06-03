@@ -36,8 +36,8 @@ nav{
 }
 
 .nav-icon{
-  height: 180px;
-  width: 180px;
+  height: 120px;
+  width: 120px;
   padding: 15px;
   background-color: #F5005B;
 }
@@ -52,7 +52,8 @@ nav{
   display: flex;
   flex-direction: column;
   height: auto;
-  min-height: 150px;
+  min-height: 120px;
+  background-color: #7EDFE8;
 }
 
 .nav-link{
@@ -81,7 +82,7 @@ nav{
 }
 
 .headings{
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding: 5px 20px;
   margin: 20px 0;
   background-color: #0B1942;
@@ -104,7 +105,7 @@ nav{
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 .up-next-info{
@@ -152,4 +153,57 @@ nav{
   padding: 30px;
   color: #FFFFFF;
   background-color: #7EDFE8;
+}
+
+
+@media screen and (min-width: 545px) {
+
+.nav-link-container{
+  flex-direction: row;
+}
+
+.nav-link{
+  width:20%;
+  flex-grow: 0;
+}
+
+.info-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-sections{
+  flex-basis: 30%;
+}
+
+.up-next-card{
+  justify-content: space-around;
+}
+
+.rashomon-poster{
+  height: 60vw;
+  width: 45vw;
+
+}
+
+.up-next-film{
+  flex-basis: 20%;
+}
+
+.poster{
+  max-height: 199px;
+  max-width: 143px;
+}
+
+
+
+
+
+
+.copyright-text{
+  align-self: center;
+  text-align: right;
+  width: 100%;
+}
+
 }
